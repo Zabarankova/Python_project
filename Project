@@ -1,1 +1,4 @@
-#Провекра
+import pandas as pd
+#Загружаем файл HR.csv в pandas dataframe
+df = pd.read_csv('HR.csv')
+df.head()
